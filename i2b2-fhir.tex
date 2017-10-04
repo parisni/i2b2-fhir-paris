@@ -100,7 +100,7 @@
 \item Analytic tools extend i2b2 (transmart, i2b2-transmart) to handle omics
 \end{itemize}
 	%$\rightarrow$ What about institutions without i2b2 ?
-$\rightarrow$ Improving i2b2 should improve derived tools
+	$\rightarrow$ How to build cohorts with 360$^\circ$. patient vision, and worldwide? 
 
 \end{frame}
 
@@ -110,8 +110,7 @@ $\rightarrow$ Improving i2b2 should improve derived tools
 
 \begin{block}{Data Federation}
 \begin{itemize}
-	\item[] ETL processes are time/space/humans consuming
-	\item[] i2b2 needs a dedicated informatic team
+	\item[] ETL processes need a dedicated ingineer team
 	\item[] Terminology Mapping tools in their infancy
 \end{itemize}
 \end{block}
@@ -119,7 +118,7 @@ $\rightarrow$ Improving i2b2 should improve derived tools
 \begin{block}{Data Variety}
 \begin{itemize}
 	\item[] RDBMs based i2b2 star schema cannot handle every types
-	\item[] Dedicated technology emmerge faster than i2b2 can exploit them
+	\item[] Dedicated technology emmerges faster than i2b2 can exploit them
 \end{itemize}
 \end{block}
 
@@ -128,15 +127,15 @@ $\rightarrow$ Improving i2b2 should improve derived tools
 
 %-------------------------------------------------------
 \section{Solution}
-\begin{frame}{Solution}{SMART-on-FHIR}
+\begin{frame}{Solution}{Fast Healthcare Interoperability Resources}
 
 \begin{itemize}
-\item FHIR specifies how EHR should share data (clinical, imaging, genomics)
+\item FHIR an Agile and RESTful Approach to Healthcare Information Exchange
 \item FHIR specifies both a \emph{Search} \& a \emph{Terminology Mapping} API
 \item EHR vendors are more \& more FHIR conformant
 \item SMART-on-FHIR specifies how Apps should consume data (50 apps)
 \end{itemize}
-$\rightarrow$ Let's i2b2 be a SMART-on-FHIR app !
+$\rightarrow$ Let's implement i2b2 over SMART-on-FHIR !
 \end{frame}
 
 %-------------------------------------------------------
@@ -153,18 +152,18 @@ $\rightarrow$ Let's i2b2 be a SMART-on-FHIR app !
 \begin{frame}{Results}{Implementation}
 	Change made to CRC cell
 \begin{itemize}
-\item New	pm\_cell\_data entry	to	point	to	URL of FHIR
-\item By	using	the	project\_path can	configure	to	use	 different	FHIR	API	for	different	projects
-\item Easy	to	change	without	restarting	i2b2
-\item Limited	to	one	FHIR	API	per	project
+\item New pm\_cell\_data entry to point to URL of FHIR
+\item By using the project\_path can configure to use  different FHIR API for different projects
+\item Easy to change without restarting i2b2
+\item Limited to one FHIR API per project
 \end{itemize}
 ~
 \\
 	Change made to PM cell
 \begin{itemize}
-\item New class written	that extends	Panel Items
+\item New class written that extends Panel Items
 \item Any ontology item that begins with \\FHIR is sent to the new class
-\item The	Item	Code,	constraint	value	and	date	contraints are	sent	to	the	FHIR	API
+\item The Item Code, constraint value and date contraints are sent to the FHIR API
 \item \ldots
 \end{itemize}
 \end{frame}
@@ -199,9 +198,9 @@ $\rightarrow$ Let's i2b2 be a SMART-on-FHIR app !
 	\begin{itemize}
 		\item FHIR generation step bottlneck
 		\item under the minute
-		\item sub-linear performances
+		\item linear performances
 	\end{itemize}
-	$\rightarrow$ Bridging the gap (i2b2 / big-data platforms)
+			$\rightarrow$ Bridging the gap (i2b2 / specialized tech)
                 \end{minipage}
             \end{onlyenv}
         \end{column}
@@ -216,6 +215,7 @@ Work done:
 \begin{itemize}
 \item Ontology Model
 \item Querying FHIR API
+\item Terminology Mapping
 \item Mixed star schema \& FHIR API \& No-SQL DBs
 \end{itemize}
 ~
@@ -235,7 +235,7 @@ Work done:
 	i2b2-FHIR opens new area:
 \begin{itemize}
 \item Data federation
-\item Data Volumne handling
+\item Data Volume handling
 \end{itemize}
 ~\\
 $\rightarrow$ Work in progress to release in future i2b2 version
