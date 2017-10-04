@@ -92,42 +92,37 @@
 
 %-------------------------------------------------------
 \section{Context}
-\begin{frame}{Context}{EHR federation}
+\begin{frame}{Context}{Cohort Discovery}
 
 \begin{itemize}
-\item i2b2 has more than 200 implementations over the world
-\item Multicenter research produces large patient cohort
-\item Federation tools federate multiple i2b2 instances (Shrine, Insite, Trinetx)
+\item i2b2 is a key leader with 200 implementations over the world
+\item Federation tools federate multiple i2b2 instances (Shrine, Insite, TrinetX)
+\item Analytic tools extend i2b2 (transmart, i2b2-transmart) to handle omics
 \end{itemize}
-$\rightarrow$ What about institutions without i2b2 ?
+	%$\rightarrow$ What about institutions without i2b2 ?
+$\rightarrow$ Improving i2b2 should improve derived tools
 
 \end{frame}
 
 %-------------------------------------------------------
 \section{Problem}
-\begin{frame}{Problem}{Install i2b2 everywhere ?}
+\begin{frame}{Problem}{i2b2 room of improvement}
 
-\begin{block}{Data Velocity}
+\begin{block}{Data Federation}
 \begin{itemize}
 	\item[] ETL processes are time/space/humans consuming
 	\item[] i2b2 needs a dedicated informatic team
+	\item[] Terminology Mapping tools in their infancy
 \end{itemize}
 \end{block}
 
 \begin{block}{Data Variety}
 \begin{itemize}
-	\item[] Terminology Mapping tools in their infancy
-	\item[] Big Data i2b2 star schema cannot handle
+	\item[] RDBMs based i2b2 star schema cannot handle every types
+	\item[] Dedicated technology emmerge faster than i2b2 can exploit them
 \end{itemize}
 \end{block}
 
-\begin{block}{Data Volume}
-\begin{itemize}
-	\item[] Big Data i2b2 star schema cannot handle
-	\item[] Dedicated technology
-
-\end{itemize}
-\end{block}
 
 \end{frame}
 
@@ -136,10 +131,10 @@ $\rightarrow$ What about institutions without i2b2 ?
 \begin{frame}{Solution}{SMART-on-FHIR}
 
 \begin{itemize}
-\item FHIR specifies how EHR should share data
+\item FHIR specifies how EHR should share data (clinical, imaging, genomics)
 \item FHIR specifies both a \emph{Search} \& a \emph{Terminology Mapping} API
 \item EHR vendors are more \& more FHIR conformant
-\item SMART-on-FHIR specifies how Apps should consume data
+\item SMART-on-FHIR specifies how Apps should consume data (50 apps)
 \end{itemize}
 $\rightarrow$ Let's i2b2 be a SMART-on-FHIR app !
 \end{frame}
