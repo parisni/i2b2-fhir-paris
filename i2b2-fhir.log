@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  4 OCT 2017 12:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.9.19)  4 OCT 2017 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1376,7 +1376,7 @@ Missing character: There is no ; in font nullfont!
 File: Feathergraphics/2.pdf Graphic file (type pdf)
 
 <use Feathergraphics/2.pdf>
-Package pdftex.def Info: Feathergraphics/2.pdf used on input line 126.
+Package pdftex.def Info: Feathergraphics/2.pdf used on input line 128.
 (pdftex.def)             Requested size: 37.40611pt x 34.87935pt.
 Missing character: There is no ; in font nullfont!
  [3
@@ -1384,25 +1384,25 @@ Missing character: There is no ; in font nullfont!
 ]
 File: Feathergraphics/2.pdf Graphic file (type pdf)
  <use Feathergraphics/2.pdf>
-Package pdftex.def Info: Feathergraphics/2.pdf used on input line 139.
+Package pdftex.def Info: Feathergraphics/2.pdf used on input line 141.
 (pdftex.def)             Requested size: 37.40611pt x 34.87935pt.
 Missing character: There is no ; in font nullfont!
  [4
 
 ]
-<images/overall.pdf, id=123, 972.63374pt x 662.475pt>
+<images/overall.pdf, id=122, 972.63374pt x 662.475pt>
 File: images/overall.pdf Graphic file (type pdf)
  <use images/overall.pdf>
-Package pdftex.def Info: images/overall.pdf used on input line 148.
+Package pdftex.def Info: images/overall.pdf used on input line 150.
 (pdftex.def)             Requested size: 309.21591pt x 210.61115pt.
 
-Overfull \hbox (1.92604pt too wide) in paragraph at lines 148--148
+Overfull \hbox (1.92604pt too wide) in paragraph at lines 150--150
 [][]  
  []
 
 File: Feathergraphics/2.pdf Graphic file (type pdf)
 <use Feathergraphics/2.pdf>
-Package pdftex.def Info: Feathergraphics/2.pdf used on input line 148.
+Package pdftex.def Info: Feathergraphics/2.pdf used on input line 150.
 (pdftex.def)             Requested size: 37.40611pt x 34.87935pt.
 Missing character: There is no ; in font nullfont!
  [5
@@ -1411,49 +1411,49 @@ Missing character: There is no ; in font nullfont!
 File: Feathergraphics/2.pdf Graphic file (type pdf)
 
 <use Feathergraphics/2.pdf>
-Package pdftex.def Info: Feathergraphics/2.pdf used on input line 169.
+Package pdftex.def Info: Feathergraphics/2.pdf used on input line 171.
 (pdftex.def)             Requested size: 37.40611pt x 34.87935pt.
 Missing character: There is no ; in font nullfont!
  [6
 
 ]
-<images/demo.png, id=162, 813.0375pt x 623.32875pt>
+<images/demo.png, id=161, 813.0375pt x 623.32875pt>
 File: images/demo.png Graphic file (type png)
  <use images/demo.png>
-Package pdftex.def Info: images/demo.png used on input line 177.
+Package pdftex.def Info: images/demo.png used on input line 179.
 (pdftex.def)             Requested size: 240.36504pt x 184.28325pt.
 File: Feathergraphics/2.pdf Graphic file (type pdf)
 
 <use Feathergraphics/2.pdf>
-Package pdftex.def Info: Feathergraphics/2.pdf used on input line 177.
+Package pdftex.def Info: Feathergraphics/2.pdf used on input line 179.
 (pdftex.def)             Requested size: 37.40611pt x 34.87935pt.
 Missing character: There is no ; in font nullfont!
  [7
 
  <./images/demo.png>]
-<images/graph1.pdf, id=171, 504.88625pt x 504.88625pt>
+<images/graph1.pdf, id=170, 504.88625pt x 504.88625pt>
 File: images/graph1.pdf Graphic file (type pdf)
  <use images/graph1.pdf>
-Package pdftex.def Info: images/graph1.pdf used on input line 209.
+Package pdftex.def Info: images/graph1.pdf used on input line 211.
 (pdftex.def)             Requested size: 184.28578pt x 184.28325pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 \T1/phv/m/n/10 5B phys-i-o-log-i-cal ta-ble
  []
 
 File: Feathergraphics/2.pdf Graphic file (type pdf)
 <use Feathergraphics/2.pdf>
-Package pdftex.def Info: Feathergraphics/2.pdf used on input line 209.
+Package pdftex.def Info: Feathergraphics/2.pdf used on input line 211.
 (pdftex.def)             Requested size: 37.40611pt x 34.87935pt.
 Missing character: There is no ; in font nullfont!
  [8
@@ -1462,7 +1462,7 @@ Missing character: There is no ; in font nullfont!
 File: Feathergraphics/2.pdf Graphic file (type pdf)
 
 <use Feathergraphics/2.pdf>
-Package pdftex.def Info: Feathergraphics/2.pdf used on input line 230.
+Package pdftex.def Info: Feathergraphics/2.pdf used on input line 232.
 (pdftex.def)             Requested size: 37.40611pt x 34.87935pt.
 Missing character: There is no ; in font nullfont!
  [9
@@ -1470,7 +1470,7 @@ Missing character: There is no ; in font nullfont!
 ]
 File: Feathergraphics/2.pdf Graphic file (type pdf)
  <use Feathergraphics/2.pdf>
-Package pdftex.def Info: Feathergraphics/2.pdf used on input line 242.
+Package pdftex.def Info: Feathergraphics/2.pdf used on input line 244.
 (pdftex.def)             Requested size: 37.40611pt x 34.87935pt.
 Missing character: There is no ; in font nullfont!
  [10
@@ -1479,7 +1479,7 @@ Missing character: There is no ; in font nullfont!
 File: Feathergraphics/1.pdf Graphic file (type pdf)
 
 <use Feathergraphics/1.pdf>
-Package pdftex.def Info: Feathergraphics/1.pdf used on input line 247.
+Package pdftex.def Info: Feathergraphics/1.pdf used on input line 249.
 (pdftex.def)             Requested size: 364.21019pt x 273.1519pt.
  [11
 
@@ -1493,19 +1493,19 @@ Package pdftex.def Info: Feathergraphics/1.pdf used on input line 247.
 \tf@snm=\write8
 \openout8 = `i2b2-fhir.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 249.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 249.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
  (./i2b2-fhir.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 249.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 249.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 251.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
 Package rerunfilecheck Info: File `i2b2-fhir.out' has not changed.
 (rerunfilecheck)             Checksum: 0F8870220AB43B8293A97307E46D4CFB;385.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 249.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
  ) 
 Here is how much of TeX's memory you used:
  20921 strings out of 493029
  405744 string characters out of 6136234
- 478637 words of memory out of 5000000
+ 478638 words of memory out of 5000000
  23914 multiletter control sequences out of 15000+600000
  41779 words of font info for 57 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1513,17 +1513,16 @@ Here is how much of TeX's memory you used:
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf/
 fonts/enc/dvips/cm-super/cm-super-t1.enc}</usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
-msfonts/symbols/msam7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx144
-0.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/te
-xmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/publ
-ic/cm-super/sftt0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helveti
-c/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on i2b2-fhir.pdf (11 pages, 1441377 bytes).
+ublic/amsfonts/symbols/msam7.pfb></usr/share/texmf/fonts/type1/public/cm-super/
+sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0800.pfb></usr/s
+hare/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/typ
+e1/public/cm-super/sftt0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/
+helvetic/uhvb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhv
+r8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on i2b2-fhir.pdf (11 pages, 1433847 bytes).
 PDF statistics:
- 251 PDF objects out of 1000 (max. 8388607)
- 188 compressed objects within 2 object streams
+ 247 PDF objects out of 1000 (max. 8388607)
+ 185 compressed objects within 2 object streams
  32 named destinations out of 1000 (max. 500000)
  174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
